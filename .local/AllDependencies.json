@@ -1787,15 +1787,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scrotty\\.nuget\\packages\\": {}
+    "C:\\Users\\m1006109\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "EA-Fleet-Reporting",
       "projectName": "EA-Fleet-Reporting",
-      "projectPath": "C:\\Users\\scrotty\\Documents\\EA-Fleet-Reporting\\EA-Fleet-Reporting-Robot-1\\.local",
-      "packagesPath": "C:\\Users\\scrotty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scrotty\\Documents\\EA-Fleet-Reporting\\EA-Fleet-Reporting-Robot-1\\.local"
+      "projectPath": "C:\\Users\\m1006109\\Downloads\\EA-Fleet-Reporting\\.local",
+      "packagesPath": "C:\\Users\\m1006109\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m1006109\\Downloads\\EA-Fleet-Reporting\\.local"
     },
     "frameworks": {
       "net461": {

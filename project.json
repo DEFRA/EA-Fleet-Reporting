@@ -3,7 +3,7 @@
   "description": "Fleet Reporting Robot",
   "main": "Main.xaml",
   "dependencies": {
-    "Crystal.Reports": "[1.0.128]",
+    "Crystal.Reports": "[1.0.134]",
     "Reusable.Components": "[1.0.7]",
     "UiPath.Excel.Activities": "[2.8.6]",
     "UiPath.Mail.Activities": "[1.8.6]",
@@ -13,7 +13,7 @@
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.3.0",
-  "projectVersion": "1.0.18",
+  "projectVersion": "1.0.20",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,

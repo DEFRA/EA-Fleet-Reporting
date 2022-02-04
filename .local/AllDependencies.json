@@ -32,7 +32,7 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
-      "Crystal.Reports/1.0.129": {
+      "Crystal.Reports/1.0.135": {
         "type": "package",
         "dependencies": {
           "UiPath.Excel.Activities": "2.8.6",
@@ -955,13 +955,13 @@
         "lib/net40/ClosedXML.xml"
       ]
     },
-    "Crystal.Reports/1.0.129": {
-      "sha512": "Yc8YGdlG8sXTCHvIqr27MuwUESZG9pobE2OkXmNHh1c1Va03QuayOTNmflySsEF0S9dRc4Huy8AddVwRwHChBw==",
+    "Crystal.Reports/1.0.135": {
+      "sha512": "6MmK/q4GuM70ymHE8ChbUU39MOev3P8iPnRwnbn4xG5fYxhQw5ck3pypBdPsLg3m+ckI0ReIHoIMhC+46cW1YA==",
       "type": "package",
-      "path": "crystal.reports/1.0.129",
+      "path": "crystal.reports/1.0.135",
       "files": [
         ".nupkg.metadata",
-        "crystal.reports.1.0.129.nupkg.sha512",
+        "crystal.reports.1.0.135.nupkg.sha512",
         "crystal.reports.nuspec",
         "lib/net45/.settings/Release/settings-1a5b880a.json",
         "lib/net45/.settings/Release/settings-5190454b.json",
@@ -1778,7 +1778,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "Crystal.Reports >= 1.0.129 <= 1.0.129",
+      "Crystal.Reports >= 1.0.135 <= 1.0.135",
       "Reusable.Components >= 1.0.7 <= 1.0.7",
       "UiPath.Excel.Activities >= 2.8.6 <= 2.8.6",
       "UiPath.Mail.Activities >= 1.8.6 <= 1.8.6",
@@ -1787,15 +1787,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m1006109\\.nuget\\packages\\": {}
+    "C:\\Users\\amohammed\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "EA-Fleet-Reporting",
       "projectName": "EA-Fleet-Reporting",
-      "projectPath": "C:\\Users\\m1006109\\Downloads\\EA-Fleet-Reporting\\.local",
-      "packagesPath": "C:\\Users\\m1006109\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m1006109\\Downloads\\EA-Fleet-Reporting\\.local"
+      "projectPath": "C:\\Users\\amohammed\\Downloads\\GITHUB\\EA-Fleet-Reporting\\.local",
+      "packagesPath": "C:\\Users\\amohammed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amohammed\\Downloads\\GITHUB\\EA-Fleet-Reporting\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1803,7 +1803,7 @@
           "Crystal.Reports": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.129, 1.0.129]"
+            "version": "[1.0.135, 1.0.135]"
           },
           "Reusable.Components": {
             "include": "Runtime",

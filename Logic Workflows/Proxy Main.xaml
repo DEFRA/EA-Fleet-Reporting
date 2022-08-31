@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1749,1954</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1184,1954</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Proxy_Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="44">
@@ -81,6 +81,7 @@
       <Variable x:TypeArguments="ui:Window" Name="winCrystalReports" />
       <Variable x:TypeArguments="x:Boolean" Name="boolStartCrystalReports" />
       <Variable x:TypeArguments="x:String" Name="strWeekly" />
+      <Variable x:TypeArguments="s:DateTime" Name="dateLogStart" />
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -402,14 +403,22 @@
                                               <av:PointCollection x:Key="ConnectorLocation">290,1136 290,1156.5</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <TryCatch DisplayName="Try Start Up Crystal Reports" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="TryCatch_21">
+                                          <TryCatch DisplayName="Try Start Up Crystal Reports" sap:VirtualizedContainerService.HintSize="438,631" sap2010:WorkflowViewState.IdRef="TryCatch_21">
                                             <TryCatch.Try>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="376,304" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="376,404" sap2010:WorkflowViewState.IdRef="Sequence_83">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
+                                                <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_114">
+                                                  <Assign.To>
+                                                    <OutArgument x:TypeArguments="s:DateTime">[dateLogStart]</OutArgument>
+                                                  </Assign.To>
+                                                  <Assign.Value>
+                                                    <InArgument x:TypeArguments="s:DateTime">[Now]</InArgument>
+                                                  </Assign.Value>
+                                                </Assign>
                                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Start Up" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="Logic Workflows/Start Up.xaml">
                                                   <ui:InvokeWorkflowFile.Arguments>
                                                     <InArgument x:TypeArguments="scg:Dictionary(x:String, ui:GenericValue)" x:Key="IN_dictConfig">[dictConfig]</InArgument>
@@ -482,24 +491,12 @@
                                                         </sap:WorkflowViewStateService.ViewState>
                                                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Start Report Generation" sap:VirtualizedContainerService.HintSize="352,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="Logic Workflows/Start Report Generation.xaml">
                                                           <ui:InvokeWorkflowFile.Arguments>
-                                                            <InArgument x:TypeArguments="scg:Dictionary(x:String, ui:GenericValue)" x:Key="IN_dictConfig">
-                                                              <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, ui:GenericValue)" ExpressionText="dictConfig" />
-                                                            </InArgument>
-                                                            <OutArgument x:TypeArguments="s:DateTime" x:Key="dateStartTime">
-                                                              <mva:VisualBasicReference x:TypeArguments="s:DateTime" ExpressionText="dateStartTime" />
-                                                            </OutArgument>
-                                                            <OutArgument x:TypeArguments="x:String" x:Key="OUT_strCaseDescription">
-                                                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strCaseDescription" />
-                                                            </OutArgument>
-                                                            <InArgument x:TypeArguments="ui:Window" x:Key="IN_winCrystalReports">
-                                                              <mva:VisualBasicValue x:TypeArguments="ui:Window" ExpressionText="winCrystalReports" />
-                                                            </InArgument>
-                                                            <InArgument x:TypeArguments="x:String" x:Key="IN_strWeekly">
-                                                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="strWeekly" />
-                                                            </InArgument>
-                                                            <InArgument x:TypeArguments="s:DateTime" x:Key="IN_dateStarttime">
-                                                              <mva:VisualBasicValue x:TypeArguments="s:DateTime" ExpressionText="dateStartTime" />
-                                                            </InArgument>
+                                                            <InArgument x:TypeArguments="scg:Dictionary(x:String, ui:GenericValue)" x:Key="IN_dictConfig">[dictConfig]</InArgument>
+                                                            <OutArgument x:TypeArguments="s:DateTime" x:Key="dateStartTime">[dateStartTime]</OutArgument>
+                                                            <OutArgument x:TypeArguments="x:String" x:Key="OUT_strCaseDescription">[strCaseDescription]</OutArgument>
+                                                            <InArgument x:TypeArguments="ui:Window" x:Key="IN_winCrystalReports">[winCrystalReports]</InArgument>
+                                                            <InArgument x:TypeArguments="x:String" x:Key="IN_strWeekly">[strWeekly]</InArgument>
+                                                            <InArgument x:TypeArguments="s:DateTime" x:Key="IN_dateStarttime">[dateStartTime]</InArgument>
                                                           </ui:InvokeWorkflowFile.Arguments>
                                                         </ui:InvokeWorkflowFile>
                                                         <Assign sap:VirtualizedContainerService.HintSize="352,60" sap2010:WorkflowViewState.IdRef="Assign_103">
@@ -556,7 +553,7 @@
                                                               <av:PointCollection x:Key="ConnectorLocation">600,1559 630,1559 630,1652 1040,1652 1040,1622</av:PointCollection>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <Sequence DisplayName="Case Successful" sap:VirtualizedContainerService.HintSize="376,300" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                                                          <Sequence DisplayName="Case Successful" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_70">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -564,7 +561,7 @@
                                                             </sap:WorkflowViewStateService.ViewState>
                                                             <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" Caption="Case Successful" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The process was completed successfully. Details are recorded in the log file.&quot;]" />
                                                             <r:Log_Case___Preset DisplayName="Log Case - Successful" sap:VirtualizedContainerService.HintSize="334,22" IN_dateCaseEndTime="[Now]" IN_dateCaseStartTime="[dateStartTime]" IN_dateCaseTotalTime="[(Now - dateStartTime).ToString]" IN_strCaseID="[strSBINumber]" IN_strFailureMessage="N/A" IN_strFilePath="[strLogFilePath]" IN_strNotes="[strCaseDescription + &quot; &quot; + Now.ToString(&quot;dd.MM.yyyy&quot;)]" IN_strSuccessful="Success" IN_strUser="[Environment.UserName]" IN_strWorkpackageName="[dictConfig(&quot;WorkpackageName&quot;)]" sap2010:WorkflowViewState.IdRef="Log_Case___Preset_1" />
-                                                            <l:LogTransaction sap:VirtualizedContainerService.HintSize="334,22" IN_dateEndDateTime="[Now]" IN_dateStartDateTime="[dateStartTime]" IN_intExitPoint="-1" IN_strFileName="[String.Format(dictConfig(&quot;strArchivePath&quot;),Environment.GetEnvironmentVariable(&quot;USERPROFILE&quot;).Replace(&quot;C:\Users\&quot;,&quot;&quot;)) + &quot;SQL.csv&quot;]" IN_strOutcome="Success" IN_strOutcomeNotes="N/A" IN_strTotalTime="[(Now - dateStartTime).ToString]" IN_strTransactionID="[now.tostring(&quot;dd/MM/yyyy HH:mm:ss&quot;)]" IN_strUser="[Environment.UserName]" IN_strVersion="1" IN_strWorkPackage="10" sap2010:WorkflowViewState.IdRef="LogTransaction_3">
+                                                            <l:LogTransaction sap:VirtualizedContainerService.HintSize="334,22" IN_dateEndDateTime="[Now]" IN_dateStartDateTime="[dateLogStart]" IN_intExitPoint="-1" IN_strFileName="[String.Format(dictConfig(&quot;strArchivePath&quot;),Environment.GetEnvironmentVariable(&quot;USERPROFILE&quot;).Replace(&quot;C:\Users\&quot;,&quot;&quot;)) + &quot;SQL.csv&quot;]" IN_strOutcome="Success" IN_strOutcomeNotes="N/A" IN_strTotalTime="[(Now - dateLogStart).ToString]" IN_strTransactionID="[now.tostring(&quot;dd/MM/yyyy HH:mm:ss&quot;)]" IN_strUser="[Environment.UserName]" IN_strVersion="1" IN_strWorkPackage="10" sap2010:WorkflowViewState.IdRef="LogTransaction_3">
                                                               <l:LogTransaction.IN_strMiscNotes>
                                                                 <InArgument x:TypeArguments="x:String">
                                                                   <Literal x:TypeArguments="x:String" DisplayName="Literal&lt;String&gt;" Value="" />
@@ -729,7 +726,7 @@
                                                               </If.Then>
                                                             </If>
                                                             <r:Log_Case___Preset DisplayName="Log Case - Failed" sap:VirtualizedContainerService.HintSize="484,22" IN_dateCaseEndTime="[Now]" IN_dateCaseStartTime="[dateStartTime]" IN_dateCaseTotalTime="[(Now - dateStartTime).ToString]" IN_strCaseID="[strSBINumber]" IN_strFailureMessage="[exceptionCurrent.Message.ToString]" IN_strFilePath="[strLogFilePath]" IN_strNotes="[strCaseDescription + &quot; &quot; + Now.ToString(&quot;dd.MM.yyyy&quot;)]" IN_strSuccessful="Failed" IN_strUser="[Environment.UserName]" IN_strWorkpackageName="[dictConfig(&quot;WorkpackageName&quot;)]" sap2010:WorkflowViewState.IdRef="Log_Case___Preset_2" />
-                                                            <l:LogTransaction sap:VirtualizedContainerService.HintSize="484,22" IN_dateEndDateTime="[Now]" IN_dateStartDateTime="[dateStartTime]" IN_intExitPoint="0" IN_strFileName="[String.Format(dictConfig(&quot;strArchivePath&quot;),Environment.GetEnvironmentVariable(&quot;USERPROFILE&quot;).Replace(&quot;C:\Users\&quot;,&quot;&quot;)) + &quot;SQL.csv&quot;]" IN_strOutcome="System Exception" IN_strOutcomeNotes="[exceptionCurrent.Message.ToString]" IN_strTotalTime="[(Now - dateStartTime).ToString]" IN_strTransactionID="[now.tostring(&quot;dd/MM/yyyy HH:mm:ss&quot;)]" IN_strUser="[Environment.UserName]" IN_strVersion="1" IN_strWorkPackage="10" sap2010:WorkflowViewState.IdRef="LogTransaction_1">
+                                                            <l:LogTransaction sap:VirtualizedContainerService.HintSize="484,22" IN_dateEndDateTime="[Now]" IN_dateStartDateTime="[dateLogStart]" IN_intExitPoint="0" IN_strFileName="[String.Format(dictConfig(&quot;strArchivePath&quot;),Environment.GetEnvironmentVariable(&quot;USERPROFILE&quot;).Replace(&quot;C:\Users\&quot;,&quot;&quot;)) + &quot;SQL.csv&quot;]" IN_strOutcome="System Exception" IN_strOutcomeNotes="[exceptionCurrent.Message.ToString]" IN_strTotalTime="[(Now - dateLogStart).ToString]" IN_strTransactionID="[now.tostring(&quot;dd/MM/yyyy HH:mm:ss&quot;)]" IN_strUser="[Environment.UserName]" IN_strVersion="1" IN_strWorkPackage="10" sap2010:WorkflowViewState.IdRef="LogTransaction_1">
                                                               <l:LogTransaction.IN_strMiscNotes>
                                                                 <InArgument x:TypeArguments="x:String">
                                                                   <Literal x:TypeArguments="x:String" DisplayName="Literal&lt;String&gt;" Value="" />

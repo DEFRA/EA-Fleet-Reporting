@@ -4,7 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "Crystal.Reports": "[1.0.135]",
-    "Logging": "[1.0.1]",
+    "Logging": "[1.0.7]",
     "Reusable.Components": "[1.0.7]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.8.6]",
@@ -14,7 +14,7 @@
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.3.0",
-  "projectVersion": "1.0.25",
+  "projectVersion": "1.0.26",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,

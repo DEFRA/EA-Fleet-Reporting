@@ -74,8 +74,8 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.mail.activities/1.8.6\\lib/net461/MailKit.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.mail.activities/1.8.6\\lib/net461/MimeKit.dll",
@@ -189,8 +189,8 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.mail.activities/1.8.6\\lib/net461/MailKit.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.mail.activities/1.8.6\\lib/net461/MimeKit.dll",
@@ -250,8 +250,8 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
@@ -384,13 +384,14 @@
     {
       "Package": {
         "Id": "Logging",
-        "Version": "1.0.1"
+        "Version": "1.0.7"
       },
       "Assemblies": [
         "C:\\Users\\m1006109\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\castle.core/4.3.1\\lib/net45/Castle.Core.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\credentials/1.0.2\\lib/net45/Credentials.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\csvhelper/16.0.0\\lib/net45/CsvHelper.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
@@ -400,7 +401,7 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\logging/1.0.1\\lib/net45/Logging.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\logging/1.0.7\\lib/net45/Logging.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
@@ -431,11 +432,13 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\oracle.manageddataaccess/19.11.0\\lib/net40/Oracle.ManagedDataAccess.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\restsharp/106.6.10\\lib/net452/RestSharp.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.collections.immutable/5.0.0\\lib/net461/System.Collections.Immutable.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\system.data.sqlclient/4.8.2\\lib/net461/System.Data.SqlClient.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\system.management.automation/6.1.7601.17515\\lib/net45/System.Management.Automation.dll",
@@ -468,12 +471,17 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/swiftshader/libGLESv2.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/vcruntime140.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.credentials.activities/2.0.0\\lib/net461/UiPath.Credentials.Activities.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.Activities.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/UiPath.Database.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities/1.6.1\\lib/net461/runtimes/win-x86/native/sni.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Office.Interop.Excel.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Microsoft.Vbe.Interop.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/Office.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities/2.11.4\\lib/net461/UiPath.Excel.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Callout.Activity.Design.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Callout.Activity.dll",
@@ -523,7 +531,7 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.1"
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.7"
     }
   ],
   "Conflicts": [],
@@ -557,6 +565,44 @@
       "Id": "CredentialManagement",
       "Version": "1.0.2",
       "Dependencies": []
+    },
+    "Credentials": {
+      "Id": "Credentials",
+      "Version": "1.0.2",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.Credentials.Activities",
+          "Item2": "[2.0.0, )"
+        },
+        {
+          "Item1": "UiPath.Excel.Activities",
+          "Item2": "[2.11.4, )"
+        },
+        {
+          "Item1": "UiPath.Form.Activities",
+          "Item2": "[1.7.1, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary",
+          "Item2": "[1.7.1, )"
+        },
+        {
+          "Item1": "UiPath.Persistence.Activities",
+          "Item2": "[1.4.0, )"
+        },
+        {
+          "Item1": "UiPath.System.Activities",
+          "Item2": "[20.10.6, )"
+        },
+        {
+          "Item1": "UiPath.UIAutomation.Activities",
+          "Item2": "[19.11.2, )"
+        },
+        {
+          "Item1": "UiPath.WebAPI.Activities",
+          "Item2": "[1.9.2, )"
+        }
+      ]
     },
     "Crystal.Reports": {
       "Id": "Crystal.Reports",
@@ -616,11 +662,15 @@
     },
     "Logging": {
       "Id": "Logging",
-      "Version": "1.0.1",
+      "Version": "1.0.7",
       "Dependencies": [
         {
-          "Item1": "UiPath.Credentials.Activities",
-          "Item2": "[2.0.0, )"
+          "Item1": "Credentials",
+          "Item2": "[1.0.2, )"
+        },
+        {
+          "Item1": "UiPath.Database.Activities",
+          "Item2": "[1.6.1, )"
         },
         {
           "Item1": "UiPath.Excel.Activities",
@@ -640,7 +690,7 @@
         },
         {
           "Item1": "UiPath.System.Activities",
-          "Item2": "[21.10.3, )"
+          "Item2": "[20.10.6, )"
         },
         {
           "Item1": "UiPath.UIAutomation.Activities",
@@ -1025,6 +1075,11 @@
         }
       ]
     },
+    "Oracle.ManagedDataAccess": {
+      "Id": "Oracle.ManagedDataAccess",
+      "Version": "19.11.0",
+      "Dependencies": []
+    },
     "RestSharp": {
       "Id": "RestSharp",
       "Version": "106.6.10",
@@ -1075,6 +1130,11 @@
     "System.ComponentModel.Annotations": {
       "Id": "System.ComponentModel.Annotations",
       "Version": "4.7.0",
+      "Dependencies": []
+    },
+    "System.Data.SqlClient": {
+      "Id": "System.Data.SqlClient",
+      "Version": "4.8.2",
       "Dependencies": []
     },
     "System.IO.Abstractions": {
@@ -1258,6 +1318,24 @@
         {
           "Item1": "CredentialManagement",
           "Item2": "[1.0.2, )"
+        }
+      ]
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.6.1",
+      "Dependencies": [
+        {
+          "Item1": "Oracle.ManagedDataAccess",
+          "Item2": "[19.11.0, )"
+        },
+        {
+          "Item1": "System.Data.SqlClient",
+          "Item2": "[4.8.2, )"
+        },
+        {
+          "Item1": "System.Resources.Extensions",
+          "Item2": "[5.0.0, )"
         }
       ]
     },
@@ -1640,6 +1718,16 @@
     },
     {
       "Package": {
+        "Id": "Credentials",
+        "Version": "1.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\m1006109\\.nuget\\packages\\credentials\\1.0.2\\lib\\net45\\Credentials.dll"
+      ],
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\credentials\\1.0.2"
+    },
+    {
+      "Package": {
         "Id": "Crystal.Reports",
         "Version": "1.0.135"
       },
@@ -1706,12 +1794,12 @@
     {
       "Package": {
         "Id": "Logging",
-        "Version": "1.0.1"
+        "Version": "1.0.7"
       },
       "Assemblies": [
-        "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.1\\lib\\net45\\Logging.dll"
+        "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.7\\lib\\net45\\Logging.dll"
       ],
-      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.1"
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\logging\\1.0.7"
     },
     {
       "Package": {
@@ -2027,6 +2115,16 @@
     },
     {
       "Package": {
+        "Id": "Oracle.ManagedDataAccess",
+        "Version": "19.11.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\m1006109\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0\\lib\\net40\\Oracle.ManagedDataAccess.dll"
+      ],
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0"
+    },
+    {
+      "Package": {
         "Id": "RestSharp",
         "Version": "106.6.10"
       },
@@ -2084,6 +2182,16 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
       ],
       "Path": "C:\\Users\\m1006109\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SqlClient",
+        "Version": "4.8.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\m1006109\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\lib\\net461\\System.Data.SqlClient.dll"
+      ],
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\system.data.sqlclient\\4.8.2"
     },
     {
       "Package": {
@@ -2270,6 +2378,19 @@
     },
     {
       "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.6.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.Activities.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities\\1.6.1\\lib\\net461\\UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\m1006109\\.nuget\\packages\\uipath.database.activities\\1.6.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.11.4"
       },
@@ -2278,8 +2399,8 @@
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Microsoft.Vbe.Interop.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\Office.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.Activities.dll",
         "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\m1006109\\.nuget\\packages\\uipath.excel.activities\\2.11.4"
